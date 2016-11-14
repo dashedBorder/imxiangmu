@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>fullPage.js — 项目导航演示_dowebok</title>
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<link rel="stylesheet" type="text/css" href="css/shiji.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="http://cdn.staticfile.org/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!-- <style type="text/css" media="screen">
+	#menu { margin: 0; padding: 0; position: fixed; left: 10px; top: 10px; list-style-type: none; z-index: 70;}
+#menu li { float: left; margin:  0 10px 0 0; font-size: 14px;}
+#menu a { float: left; padding: 10px 20px; background-color: #fff; color: #333; text-decoration: none;}
+#menu .active a { color: #fff; background-color: #333;}
+</style> -->
+</head>
+
+<body>
+
+<ul id="menu">
+		<li data-menuanchor="page1" class="active">
+			<a href="#page1" title="">TOP</a>
+		</li>
+		<li data-menuanchor="page2" >
+			<a href="#page2" title="">科技卷</a>
+		</li>
+		<li data-menuanchor="page3" >
+			<a href="#page3" title="">人物卷</a>
+		</li>
+		<li data-menuanchor="page4" >
+			<a href="#page4" title="">社会卷</a>
+		</li>
+		<li data-menuanchor="page5" >
+			<a href="#page5" title="">合作媒体</a>
+		</li>
+	</ul>
+<div id="dowebok">
+	
+	<!-- 第一屏 -->
+	<div class="section section1">
+		<div class="box1">
+			<span class="shi1 goright"><img src="image/shi1.png" alt=""></span>
+			<span class="shi2 goleft"><img src="image/shi2.png" alt=""></span>
+			<span class="shi3 goleft"><img src="image/shi3.png" alt=""></span>
+			<span class="shi4 goright"><img src="image/shi4.png" alt=""></span>
+			<span class="ji1 goright"><img src="image/ji1.png" alt=""></span>
+			<span class="ji2 goleft"><img src="image/ji2.png" alt=""></span>
+			<span class="ji3 goright"><img src="image/ji3.png" alt=""></span>
+			<span class="c2013-2 goleft"><img src="image/2013-2.png" alt=""></span>
+			<span class="c2013-0 goright"><img src="image/2013-0.png" alt=""></span>
+			<span class="c2013-1 goleft"><img src="image/2013-1.png" alt=""></span>
+			<span class="c2013-3 goright"><img src="image/2013-3.png" alt=""></span>
+			<span class="slogen center"><img src="image/slogen.png" alt=""></span>
+			
+
+		</div>
+	</div>
+	<!-- 第二屏 -->
+	<div class="section section2">
+		<div class="box2">
+			<a class="xw1 ss" href="#" title=""><span>1月</span> 网络机顶盒</a>
+			<a class="xw2 ss" href="#" title=""><span>2月</span> 干细胞人造肉</a>
+			<a class="xw3 ss" href="#" title=""><span>2月</span> 3D涂鸦笔</a>
+			<a class="xw4 ss" href="#" title=""><span>3月</span> H7N9</a>
+			<a class="xw5 ss-right" href="#" title=""><span>5月</span> 测癌试纸</a>
+			<a class="xw6 ss-right" href="#" title=""><span>6月</span> 辽宁号航空母舰</a>
+			<a class="xw7 ss-right" href="#" title=""><span>6月</span> 神舟十号飞船</a>
+			<a class="xw8 ss-right" href="#" title=""><span>6月</span> 蛟龙号载人潜水器</a>
+			<a class="xw9 ss-left" href="#" title="">三亲婴儿<span>7月</span> </a>
+			<a class="xw10 ss-left" href="#" title="">网格细胞<span>8月</span> </a>
+			<a class="xw11 ss-left" href="#" title="">好奇号火星探测器<span>9月</span> </a>
+			<a class="xw12 ss-left" href="#" title="">穿戴式智能设备<span>9月</span> </a>
+			<a class="xw13 ss-up" href="#" title=""><span>10月</span> 上帝粒子</a>
+			<a class="xw14 ss-up" href="#" title=""><span>11月</span> 比特币</a>
+			<a class="xw15 ss-up" href="#" title=""><span>11月</span> ISON彗星</a>
+			<a class="xw16 ss-up" href="#" title=""><span>11月</span> 玉兔号</a>
+			<span class="xi1 ss"><img src="image/s2-h7n9.jpg" alt=""></span>
+			<span class="xi2 ss-right"><img src="image/s2-shenshi.png" alt=""></span>
+			<span class="xi3 ss-left"><img src="image/s2-zhuangbei.jpg" alt=""></span>
+			<span class="xi4 ss-up"><img src="image/s2-bit.jpg" alt=""></span>
+		</div>
+	</div>
+	<!-- 第三屏 -->
+	<div class="section section3">
+		<div class="box3">
+			<!-- ss-up -->
+			<div class="ss-up">
+				<a class="xw1 " href="#" title="">龚爱爱<span>1月</span> </a>
+				<a class="xw2 " href="#" title="">李某某<span>2月</span> </a>
+				<a class="xw3 " href="#" title="">彭丽媛<span>3月</span> </a>
+				<img class="xi1" src="image/s3-guomu.jpg" alt="">
+			</div>
+			<!-- ss-right -->
+			<div class="ss-right">
+				<a class="xw4" href="#" title=""><span>4月</span> 撒切尔夫人</a>
+				<a class="xw5" href="#" title=""><span>6月</span> 雷政富</a>
+				<a class="xw6" href="#" title=""><span>6月</span> 安吉丽娜·朱莉</a>
+				<img class="xi2" src="image/s3-zhuli.jpg" alt="">
+			</div>
+			<!-- ss-left -->
+			<div class="ss-left">
+				<a class="xw7" href="#" title=""><span>6月</span> 斯诺登</a>
+				<a class="xw8" href="#" title=""><span>10月</span> 陈永洲</a>
+				<a class="xw9" href="#" title=""><span>11月</span> 埃隆·马斯克</a>
+				<a class="xw10" href="#" title=""><span>12月</span> 曼德拉</a>
+				<img class="xi3" src="image/s3-sinuodeng.jpg" alt="">
+
+			</div>
+			<!-- ss-down -->
+			<div class="ss-down">
+				<a class="xw11" href="#" title=""><span>7月</span> 小黄人</a>
+				<a class="xw12" href="#" title=""><span>8月</span> 薄熙来</a>
+				<a class="xw13" href="#" title=""><span>8月</span> 薛蛮子</a>
+				<a class="xw14" href="#" title=""><span>9月</span> 夏俊峰</a>
+				<a class="xw15" href="#" title=""><span>9月</span> 万爱花</a>
+				<img class="xi4" src="image/s3-xiaohuangren.png" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- 第四屏 -->
+	<div class="section section4">
+		<div class="box4">
+			<!-- ss-up -->
+			<div class="ss-up">
+				<img class="xi1" src="image/s4-wumai.jpg" alt="">
+				<a class="xw1" href="#" title=""><span>2月</span> PM2.5</a>
+				<a class="xw2" href="#" title=""><span>3月</span> 中国梦</a>
+				<a class="xw3" href="#" title=""><span>3月</span> 大黄鸭</a>
+			</div>
+			<!-- ss-right -->
+			<div class="ss-right">
+				<a class="xw7" href="#" title=""><span>8月</span> 光大"乌龙指"事件</a>
+				<a class="xw8" href="#" title=""><span>8月</span> 上海自由贸易区</a>
+				<a class="xw9" href="#" title=""><span>9月</span> 以房养老</a>
+				<a class="xw10" href="#" title=""><span>10月</span> 爸爸去哪儿</a>
+				<a class="xw11" href="#" title=""><span>10月</span> 十八届三中全会</a>
+				<a class="xw12" href="#" title=""><span>10月</span> 美国政府摆停</a>
+				<img class="xi3" src="image/s4-18da.jpg" alt="">
+			</div>
+			<!-- ss-left -->
+			<div class="ss-left">
+				<img class="xi2" src="image/s4-dama.jpg" alt="">
+				<a class="xw4" href="#" title=""><span>4月</span> 中国大妈</a>
+				<a class="xw5" href="#" title=""><span>5月</span> 中国汉字听写大会</a>
+				<a class="xw6" href="#" title=""><span>6月</span> 互联网金融</a>
+			</div>
+			<!-- ss-down -->
+			<div class="ss-down">
+				<a class="xw13" href="#" title=""> 广州恒大足球俱乐部 <span>11月</span></a>
+				<a class="xw14" href="#" title=""> 单独二胎 <span>11月</span></a>
+				<a class="xw15" href="#" title=""> 中国式放假 <span>11月</span></a>
+				<img class="xi4" src="image/s4-hengda.jpg" alt="">
+			</div>
+		</div>
+
+	</div>
+	<!-- 第五屏 -->
+	<div class="section section5">
+		<div class="box5">
+			<h2>合作媒体</h2>
+			<div class="img-foot">
+				<img src="image/s5-beijingxinwen.png" alt="">
+				<img src="image/s5-heibeixinwen.png" alt="">
+				<img src="image/s5-hubeijiaotong.png" alt="">
+				<img src="image/s5-hunanjiaotong.png" alt="">
+				<img src="image/s5-jiangxijiaotong.png" alt="">
+				<img src="image/s5-jinanjiaotong.png" alt="">
+				<img src="image/s5-weibo.png" alt="">
+				<img src="image/s5-xichuanwenyi.png" alt="">
+				<img src="image/s5-zhongguoshisheng.png" alt="">
+				<img src="image/s5-zhejiangjiaotong.png" alt="">
+			</div>
+			<p>如果想投诉，请到<a href="#">百度百科投诉中心</a>;如果想提出意见，请到<a href="#">意见反馈</a>;想要了解在百度百科的义务和权力，请到<a href="#">权力声明</a>。</p>
+			<p>©2014Baidu <a href="#" title="">使用百度前必读</a>|<a href="#" title="">百科协议</a>|<a href="#" title="">百度百科合作平台</a></p>
+		</div>
+	</div>
+
+</div>
+
+
+<script src="js/shiji.js"></script>
+
+</body>
+</html>
